@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Car Dealer App
 
-## Getting Started
+An app for filtering cars by brand and year, built using Next.js and Tailwind CSS. The user selects a brand and year, after which they can go to the results page, where available car models are available.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ Technologies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[Next.js](https://nextjs.org/) — React framework for server rendering.
+[Tailwind CSS](https://tailwindcss.com/) — Utility CSS framework.
+[VPIC API](https://vpic.nhtsa.dot.gov/api/) — API for obtaining data on car brands and models.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+ Functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Car filter:
+- Selecting a car brand via a drop-down list.
+- Selection of year of manufacture (from 2015 to the current year).
+- Go to the results page after selection.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Results page:
+Display of available car models selected by brand and year.
+Error handling in case of data unavailability.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Interface and adaptability:
+Styled with Tailwind CSS.
+Fully responsive design.
